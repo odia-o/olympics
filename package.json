@@ -1,13 +1,14 @@
 {
-  "name": "stb-mean",
+  "name": "olympics",
   "version": "1.0.0",
   "description": "* Express * MongoDB",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "gulp watch --gulpfile client/gulpfile.babel.js"
+    "watch": "gulp watch --gulpfile client/gulpfile.babel.js",
+    "start": "node server/app.js"
   },
-  "author": "Carlos Souza <carloshrsouza@gmail.com> (http://csouza.me/)",
+  "author": "Odia Oghenevwede <odiaoghenevwede@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "angular": "^1.6.4",
